@@ -1,7 +1,7 @@
 var bar = document.getElementById('progress');
 
 function addProgress() {
-    bar.value = bar.value + 11;
+    bar.value = bar.value + 10;
     if(bar.value == bar.max) unpack();
 }
 
